@@ -1,6 +1,7 @@
 <script>
   import FormCollab from './objects/FormCollab.svelte'
   import InputCollab from './objects/InputCollab.svelte'
+  import ButtonCollab from './objects/ButtonCollab.svelte'
 </script>
 
 <FormCollab>
@@ -24,4 +25,8 @@
     type={'password'}
     name={'repeatPassword'}
     placeholder={'Digite sua senha novamente'} />
+  <ButtonCollab
+    class="button-collab"
+    type={'submit'}
+    titleButton={'Cadastre-se'} />
 </FormCollab>

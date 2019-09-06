@@ -13,6 +13,11 @@
     padding: 14px 20px;
     border: 2px solid #c4c4c4;
     box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+
+  .input-collab:nth-last-child(2) {
+    margin-bottom: 20px;
   }
 </style>
 

@@ -9,8 +9,6 @@
   }
 </style>
 
-  <form class="form-collab" action="">
-    <slot></slot>
-  </form>
-
-  
+<form class="form-collab" action="">
+  <slot />
+</form>

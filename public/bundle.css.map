@@ -2,25 +2,13 @@
   "version": 3,
   "file": "bundle.css",
   "sources": [
-    "../src/components/Input/Input.svelte",
-    "../src/components/Form/Form.svelte",
-    "../src/components/Form.svelte",
-    "../src/components/Input.svelte",
-    "../src/objects/Input.svelte",
-    "../src/objects/Form.svelte",
-    "../src/objects/FormCollab.svelte",
-    "../src/objects/InputCollab.svelte"
+    "../src/objects/InputCollab.svelte",
+    "../src/objects/FormCollab.svelte"
   ],
   "sourcesContent": [
-    "<script>\n  export let type;\n  export let name;\n  export let placeholder;\n</script>\n\n<style>\n  .input-collab {\n    width: 100%;\n    border-radius: 5px;\n    color: #6C6C6C;\n    font-size: 18px;\n    padding: 14px 20px;\n    border: 2px solid #c4c4c4;\n    box-sizing: border-box;\n  }\n</style>\n\n<input class=\"input-collab\" type={type} name={name} placeholder={placeholder}>\n",
-    "<style>\n  .form-collab {\n    width: 450px;\n    height: 641px;\n    background-color: #fff;\n    border-radius: 5px;\n    padding: 30px;\n    box-sizing: border-box;\n  }\n</style>\n\n  <form class=\"form-collab\" action=\"\">\n    <slot></slot>\n  </form>\n\n  ",
-    "<style>\n  .form-collab {\n    width: 450px;\n    height: 641px;\n    background-color: #fff;\n    border-radius: 5px;\n    padding: 30px;\n    box-sizing: border-box;\n  }\n</style>\n\n  <form class=\"form-collab\" action=\"\">\n    <slot></slot>\n  </form>\n\n  ",
-    "<script>\n  export let type;\n  export let name;\n  export let placeholder;\n</script>\n\n<style>\n  .input-collab {\n    width: 100%;\n    border-radius: 5px;\n    color: #6C6C6C;\n    font-size: 18px;\n    padding: 14px 20px;\n    border: 2px solid #c4c4c4;\n    box-sizing: border-box;\n  }\n</style>\n\n<input class=\"input-collab\" type={type} name={name} placeholder={placeholder}>\n",
-    "<script>\n  export let type;\n  export let name;\n  export let placeholder;\n</script>\n\n<style>\n  .input-collab {\n    width: 100%;\n    border-radius: 5px;\n    color: #6C6C6C;\n    font-size: 18px;\n    padding: 14px 20px;\n    border: 2px solid #c4c4c4;\n    box-sizing: border-box;\n  }\n</style>\n\n<input class=\"input-collab\" type={type} name={name} placeholder={placeholder}>\n",
-    "<style>\n  .form-collab {\n    width: 450px;\n    height: 641px;\n    background-color: #fff;\n    border-radius: 5px;\n    padding: 30px;\n    box-sizing: border-box;\n  }\n</style>\n\n  <form class=\"form-collab\" action=\"\">\n    <slot></slot>\n  </form>\n\n  ",
-    "<style>\n  .form-collab {\n    width: 450px;\n    height: 641px;\n    background-color: #fff;\n    border-radius: 5px;\n    padding: 30px;\n    box-sizing: border-box;\n  }\n</style>\n\n  <form class=\"form-collab\" action=\"\">\n    <slot></slot>\n  </form>\n\n  ",
-    "<script>\n  export let type = 'text';\n  export let name = 'name not defined';\n  export let placeholder = 'placeholder not defined';\n</script>\n\n<style>\n  .input-collab {\n    width: 100%;\n    border-radius: 5px;\n    color: #6C6C6C;\n    font-size: 18px;\n    padding: 14px 20px;\n    border: 2px solid #c4c4c4;\n    box-sizing: border-box;\n  }\n</style>\n\n<input class=\"input-collab\" type={type} name={name} placeholder={placeholder}>\n"
+    "<script>\n  export let type = 'text';\n  export let name = 'name not defined';\n  export let placeholder = 'placeholder not defined';\n</script>\n\n<style>\n  .input-collab {\n    width: 100%;\n    border-radius: 5px;\n    color: #6C6C6C;\n    font-size: 18px;\n    padding: 14px 20px;\n    border: 2px solid #c4c4c4;\n    box-sizing: border-box;\n  }\n</style>\n\n<input class=\"input-collab\" type={type} name={name} placeholder={placeholder}>\n",
+    "<style>\n  .form-collab {\n    width: 450px;\n    height: 641px;\n    background-color: #fff;\n    border-radius: 5px;\n    padding: 30px;\n    box-sizing: border-box;\n  }\n</style>\n\n  <form class=\"form-collab\" action=\"\">\n    <slot></slot>\n  </form>\n\n  "
   ],
   "names": [],
-  "mappings": "AAOE,aAAa,eAAC,CAAC,AACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CACzB,UAAU,CAAE,UAAU,AACxB,CAAC;ACdD,YAAY,cAAC,CAAC,AACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,UAAU,AACxB,CAAC;ACPD,YAAY,cAAC,CAAC,AACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,UAAU,AACxB,CAAC;ACDD,aAAa,eAAC,CAAC,AACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CACzB,UAAU,CAAE,UAAU,AACxB,CAAC;ACRD,aAAa,eAAC,CAAC,AACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CACzB,UAAU,CAAE,UAAU,AACxB,CAAC;ACdD,YAAY,cAAC,CAAC,AACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,UAAU,AACxB,CAAC;ACPD,YAAY,cAAC,CAAC,AACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,UAAU,AACxB,CAAC;ACDD,aAAa,eAAC,CAAC,AACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CACzB,UAAU,CAAE,UAAU,AACxB,CAAC"
+  "mappings": "AAOE,aAAa,eAAC,CAAC,AACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,GAAG,CAClB,KAAK,CAAE,OAAO,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CACzB,UAAU,CAAE,UAAU,AACxB,CAAC;ACdD,YAAY,cAAC,CAAC,AACZ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,UAAU,AACxB,CAAC"
 }
